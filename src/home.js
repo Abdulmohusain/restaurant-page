@@ -1,6 +1,5 @@
 
 export function createWelcomeSection(welcomeHeadingString, welcomeParagraphString) {
-    // Welcome section
     const welcomeSection = document.createElement('div');
     const welcomeHeading = document.createElement('h2');
     welcomeHeading.textContent = welcomeHeadingString;
@@ -43,13 +42,9 @@ export function createAboutSection(aboutHeadingString, aboutParagraphStringList)
 }
 
 export function loadHome() {
-    // Clear the content
     // Create the main container
     const content = document.getElementById('content');
     content.innerHTML = '';
-
-    // First div
-    // const firstDiv = document.createElement('div');
 
     // Welcome section
     const welcomeHeadingString = 'Welcome to AFB Foods';
@@ -74,9 +69,5 @@ export function loadHome() {
         'Thank you for choosing AFB Foods. We look forward to serving you and making your dining experience truly unforgettable!'
     ];
     const aboutDiv = createAboutSection(aboutHeadingString, aboutParagraphs);
-
-    // Append the first div and About Us section to the content container
-    // content.appendChild(firstDiv);
     content.appendChild(aboutDiv);
-
 }
