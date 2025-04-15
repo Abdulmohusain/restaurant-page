@@ -2,6 +2,9 @@
 
 This project is part of [The Odin Project](https://www.theodinproject.com/) curriculum and was created to practice using **Webpack** for bundling JavaScript, CSS, and other assets. The goal was to learn webpack and ES6+ features like modules and `import/export` by building a simple restaurant page with multiple sections dynamically rendered using JavaScript.
 
+## Live Demo
+You can view the live version of the project [here](https://abdulmohusain.github.io/restaurant-page/) 
+
 ## Features
 
 - **Dynamic Content Rendering**: All sections (Home, Menu, About, Contact) are dynamically generated using JavaScript.
@@ -62,10 +65,6 @@ restaurant-page/
 - How to use **Webpack loaders** for handling CSS and images.
 - How to dynamically generate HTML content using JavaScript modules.
 - The importance of modular code structure for maintainability.
-
-## Live Demo
-
-You can view the live version of the project [here](https://abdulmohusain.github.io/restaurant-page/) 
 
 ## Acknowledgments
 
